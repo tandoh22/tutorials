@@ -1,3 +1,4 @@
-fisrt_name = 'Samuel'
-last_name = 'Tandoh'
-print(f"{fisrt_name} {last_name}")
+lenght = float(input('what is the lenght? '))
+width = float(input('what is the width? '))
+area = lenght * width
+print(f"the area is {area}")
