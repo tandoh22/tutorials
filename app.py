@@ -1,5 +1,4 @@
-item = input('what item would you like to buy? ')
-price = float(input('what is the price? '))
-quantity = int(input('how many would you like to buy? '))
-total = price * quantity
-print(total)
+# += is known as augmented assignment operator
+friends = 5
+friends %= 2
+print(friends)
