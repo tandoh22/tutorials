@@ -8,4 +8,7 @@ elif not username.find(' ') == -1:
 elif not username.isalpha():
     print("usernames can not contain digits")  
 else:
-    print(f"welcome {username}")          
+    print(f"welcome {username}")     
+
+
+print(username[::-1])
