@@ -41,5 +41,17 @@ elif p2 == 'C':
 else:
     print("N/A")
 
-total_gpa = (gpa1 + gpa2 + gpa3) / 3
+if p4 == 'A':
+    gpa4 = 12 / 3
+    print(gpa4)
+elif p4 == 'B':
+    gpa4 = 9 / 3
+    print(gpa4)  
+elif p4 == 'C':
+    gpa4 = 6 / 3
+    print(gpa4) 
+else:
+    print("N/A")
+
+total_gpa = (gpa1 + gpa2 + gpa3 + gpa4) / 4
 print(f"your current CGPA is {total_gpa}")
