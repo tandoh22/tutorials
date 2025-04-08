@@ -1,3 +1,4 @@
+# cgpa calculation
 name = input("enter your full name: ")
 course = input("what program do you offer? ")
 year = input("enter your current year: ")
