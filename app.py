@@ -1,6 +1,6 @@
 name = input("enter your full name: ")
 course = input("what program do you offer? ")
-year = int(input("enter your current year: "))
+year = input("enter your current year: ")
 p1 = input("what is your grade for operating systems? ")
 p2 = input("what is your grade for database fundamentals? ")
 p3 = input("what is your grade for computer networks? ")
@@ -29,3 +29,17 @@ elif p2 == 'C':
 else:
     print("N/A")
 
+if p3 == 'A':
+    gpa3 = 12 / 3
+    print(gpa3)
+elif p3 == 'B':
+    gpa3 = 9 / 3
+    print(gpa2)  
+elif p2 == 'C':
+    gpa3 = 6 / 3
+    print(gpa3) 
+else:
+    print("N/A")
+
+total_gpa = (gpa1 + gpa2 + gpa3) / 3
+print(f"your current CGPA is {total_gpa}")
