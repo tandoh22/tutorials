@@ -1,7 +1,7 @@
 # while loop
 
-food = input('enter the food you like (e to exit): ')
-while not food == 'e':
-    print(f"you like {food}")
-    food = input('enter another food you like (e to exit): ')
-print('bye!')    
+num = int(input("enter a number between 1 and 10: "))
+while num < 1 or num > 10:
+    print(f"{num} is invalid")
+    num = int(input("enter a number between 1 and 10: "))
+print(f"{num} is valid, you are good to go!")
