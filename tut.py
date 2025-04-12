@@ -1,7 +1,9 @@
-# while loop
+# for loop
 
-num = int(input("enter a number between 1 and 10: "))
-while num < 1 or num > 10:
-    print(f"{num} is invalid")
-    num = int(input("enter a number between 1 and 10: "))
-print(f"{num} is valid, you are good to go!")
+import time
+my_time = int(input("enter the time in seconds: "))
+for x in range(my_time, 0, -1):
+    seconds = x % 60
+    print(f"00:00:{my_time}")
+    time.sleep(1)
+print("Time is up!")
