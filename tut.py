@@ -7,4 +7,16 @@ while True:
     if shirt.lower() == "e":
         break
     else:
-        price = float(input("enter")) 
+        price = float(input(f"enter the price of {shirt}: $"))
+        shirts.append(shirt)
+        prices.append(price)
+
+print("<<<<<< YOUR CART >>>>>>") 
+
+for shirt in shirts:
+    print(shirt, end=" ")
+for price in prices:
+    total += price
+print()
+print(f"the total cost of your items is: ${total}")
+print("THANK YOU!")
