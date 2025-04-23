@@ -24,7 +24,7 @@ while True:
 print("--------- YOUR ORDER ---------")
 for shirt in cart:
     total += brand.get(shirt)
-print(shirt)
+    print(shirt)
 
 print()
 print(f"The total cost of your items is: ${total:.2f}")
