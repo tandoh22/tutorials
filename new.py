@@ -11,7 +11,7 @@ total = 0
 
 print("--------- AVAILABLE ITEMS ----------")
 for key, value in brand.items():
-    print(f"{key:15} {value:.2f}")
+    print(f"{key:15} ${value:.2f}")
 print("------------------------------------")
 
 while True:
