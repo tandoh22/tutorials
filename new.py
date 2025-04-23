@@ -9,5 +9,7 @@ brand = {"Lacoste": 120,
 cart = []
 total = 0
 
+print("--------- AVAILABLE ITEMS ----------")
 for key, value in brand.items():
-    print(f"{key} {value}")
+    print(f"{key:15} {value:.2f}")
+print("------------------------------------")
