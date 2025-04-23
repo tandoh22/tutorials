@@ -15,7 +15,11 @@ for key, value in brand.items():
 print("------------------------------------")
 
 while True:
-    brand = input("Select a brand to buy (e to exit): ")
+    shirt = input("Select a brand to buy (e to exit): ")
     if brand == "e":
         break
-    
+    elif brand.get(shirt) is not None:
+        cart.append(shirt)
+
+for shirt in cart:
+    total += brand.get(shirt)
