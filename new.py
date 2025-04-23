@@ -13,3 +13,9 @@ print("--------- AVAILABLE ITEMS ----------")
 for key, value in brand.items():
     print(f"{key:15} {value:.2f}")
 print("------------------------------------")
+
+while True:
+    brand = input("Select a brand to buy (e to exit): ")
+    if brand == "e":
+        break
+    
