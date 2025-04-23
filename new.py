@@ -16,7 +16,7 @@ print("------------------------------------")
 
 while True:
     shirt = input("Select a brand to buy (e to exit): ")
-    if brand == "e":
+    if shirt.lower() == "e":
         break
     elif brand.get(shirt) is not None:
         cart.append(shirt)
