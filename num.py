@@ -14,9 +14,13 @@ while is_running:
     if guess.isdigit():
         guess = int(guess)
         guesses += 1
-        if guess < {lowest_num} or guess > {highest_num}:
+        if guess < lowest_num or guess > highest_num:
             print("Your guess is out of range")
             print(f"Please select a number between {lowest_num} and {highest_num}")
+        elif guess < answer:
+            print('Too low, try again')
+        elif guess > answer:
+            print("Too high, try again")
     else:
         print("INVALID GUESS!")
         print(f"Please select a number between {lowest_num} and {highest_num}")
