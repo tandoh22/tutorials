@@ -16,6 +16,7 @@ while is_running:
         guesses += 1
         if guess < {lowest_num} or guess > {highest_num}:
             print("Your guess is out of range")
+            print(f"Please select a number between {lowest_num} and {highest_num}")
     else:
         print("INVALID GUESS!")
         print(f"Please select a number between {lowest_num} and {highest_num}")
