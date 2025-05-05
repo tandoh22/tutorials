@@ -23,7 +23,7 @@ while is_runnung:
             print("Too high, try again!")
         else:
             print(f"CORRECT!, you guessed right")
-            print(f"the right answer is {answer}")
+            print(f"The right answer is {answer}")
             print(f"Number of guesses: {guesses}")
             is_runnung = False
     else:
