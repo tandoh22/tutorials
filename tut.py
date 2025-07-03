@@ -1,7 +1,8 @@
-def create_name(first, last):
-    first = first.capitalize()
-    last = last.capitalize()
-    return f"{first} {last}"
+import time
 
-full_name = create_name("john", "doe")
-print(full_name) 
+def count(start, end):
+    for i in range(start, end + 1):
+        print(i)
+        time.sleep(1)
+    print("Counting complete!")
+count(0, 10)
