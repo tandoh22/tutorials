@@ -1,6 +1,5 @@
-def birthday(name, age):
-    print(f"happy birthday to {name}")
-    print(f"you are {age} years old")
-    print("May God bless you!")
+def display_invoice(username, amount, due_date):
+    print(f"hello {username}")
+    print(f"Your bill of ${amount} is due on {due_date}")
 
-birthday("Bevelyn", 18)
+display_invoice("Gyakie", 200, "2-12-2025")
