@@ -1,5 +1,7 @@
-def display_invoice(username, amount, due_date):
-    print(f"hello {username}")
-    print(f"Your bill of ${amount} is due on {due_date}")
+def create_name(first, last):
+    first = first.capitalize()
+    last = last.capitalize()
+    return f"{first} {last}"
 
-display_invoice("Gyakie", 200, "2-12-2025")
+full_name = create_name("john", "doe")
+print(full_name) 
