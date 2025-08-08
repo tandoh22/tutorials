@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\tutorials\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\tutorials\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\tutorials\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\user\Desktop\tutorials\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\tutorials\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json
